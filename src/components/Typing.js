@@ -39,7 +39,9 @@ const Typing = (props)=>(
                     console.log(e);
                     console.log(e.key)
 
-                    if(key==props.typing.middle.toLowerCase() ||  props.typing.middle.toLowerCase() == e.key.toLowerCase() ) {props.dispatch(nextLetter());}
+                    if(key==props.typing.middle.toLowerCase() ||  props.typing.middle.toLowerCase() == e.key.toLowerCase() )
+                    {props.dispatch(nextLetter());}
+                    else if(e.key == "Shift" || e.key == "CapsLock" || e.key == "Control" || e.key == "Alt" || e.key == "Tab") {/*do nothing*/}
                     else {props.dispatch(wrongLetter());}
                 }
             }

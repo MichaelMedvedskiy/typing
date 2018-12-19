@@ -82,7 +82,7 @@ li  {
 .stopwatch{
   position: fixed;
   right:0;
-  bottom:10%;
+  bottom:15%;
   font-size: 60pt;
 }
 
@@ -97,7 +97,7 @@ li  {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin: auto; 
+  margin: auto;
   margin-bottom: 30pt;
 }
 .leftTyping, .middleTyping, .rightTyping {

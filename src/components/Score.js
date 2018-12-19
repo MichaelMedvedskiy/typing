@@ -15,7 +15,7 @@ const Score = (props)=>{
         <div className="congrats">
             {props.isFinished && ` YOU ARE DONE! CONGRATULATIONS!
         Your accuracy mark is ${accuracy.toFixed(2)}, which is ${accuracy > 5 ? "Pretty good!" : accuracy >2.5 ?
-        "Ok i guess..." : "Fucking horrible! You should practice more!"}   You have done it in ${props.time} seconds by the way.`}
+        "Ok I guess..." : "Fucking horrible! You should practice more!"}   You have done it in ${props.time} seconds by the way.`}
         </div>
     </div>
 )};
