@@ -88,7 +88,7 @@ li  {
 }
 
 .typed {
-  font-size: 80pt;
+  font-size: 10vh;
   width:80%;
   margin: 10vh auto 10vh ;
 }
@@ -99,7 +99,7 @@ li  {
   display: flex;
   justify-content: center;
   margin: auto;
-  margin-bottom: 200pt;
+  margin-bottom: 30vh;
 }
 .leftTyping, .middleTyping, .rightTyping {
   margin: 0;
@@ -114,7 +114,7 @@ li  {
   list-style-position:inside;
   border: 1px solid black;
 
-  /*letter-spacing: 200pt;*/
+  /*letter-spacing: 200 pt;*/
   padding: 0 5vw 3vh 5vw;
   display: flex;
   justify-content: center;

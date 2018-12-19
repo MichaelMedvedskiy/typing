@@ -43,6 +43,8 @@ const Typing = (props)=>(
                     {props.dispatch(nextLetter());}
                     else if(e.key == "Shift" || e.key == "CapsLock" || e.key == "Control" || e.key == "Alt" || e.key == "Tab") {/*do nothing*/}
                     else {props.dispatch(wrongLetter());}
+                    //just scrolling the page to the bottom
+                    window.scrollTo(0,document.body.scrollHeight);
                 }
             }
             handleFocusableElements  = {true}
