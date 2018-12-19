@@ -42,16 +42,17 @@ body {
 
 button {
   width:100%;
+
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 1vh 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 60pt;
+  font-size: 5.5vh;
   position: fixed;
   bottom: 0;
 
@@ -76,20 +77,20 @@ li  {
 .score {
   position: fixed;
   left:0;
-  bottom:10%;
-  font-size: 60pt;
+  bottom: 7.5vh;
+  font-size: 3vw;
 }
 .stopwatch{
   position: fixed;
   right:0;
-  bottom:15%;
-  font-size: 60pt;
+  bottom: 8.5vh;
+  font-size: 3vw;
 }
 
 .typed {
   font-size: 80pt;
   width:80%;
-  margin: 30pt auto 60pt ;
+  margin: 10vh auto 10vh ;
 }
 
 .typing {
@@ -108,13 +109,13 @@ li  {
 }
 
 .left, .middle, .right {
-  font-size: 200pt;
+  font-size: 15vw;
   margin: auto;
   list-style-position:inside;
   border: 1px solid black;
 
   /*letter-spacing: 200pt;*/
-  padding: 0 80pt 20pt 80pt;
+  padding: 0 5vw 3vh 5vw;
   display: flex;
   justify-content: center;
 }
@@ -146,7 +147,7 @@ li  {
 
   border-top: brown solid 5px;
   border-radius:4px;
-  max-width: 100%;
+  width:100%;
   top: 0px;
   position:relative;
   box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.5);
