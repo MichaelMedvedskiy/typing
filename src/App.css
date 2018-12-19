@@ -98,7 +98,7 @@ li  {
   display: flex;
   justify-content: center;
   margin: auto;
-  margin-bottom: 30pt;
+  margin-bottom: 200pt;
 }
 .leftTyping, .middleTyping, .rightTyping {
   margin: 0;
