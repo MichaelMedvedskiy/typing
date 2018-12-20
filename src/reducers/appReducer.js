@@ -29,9 +29,9 @@ function fillTypingWithLetters(string) {
 }
 
 function getAdditionalScore(letter) {
-    let oneScoreString = 'asdfjkl; ';
-    let twoScoreString = 'werxcvuionmt,.';
-    let threeScoreString = 'qztyghbnp1234567890';
+    let oneScoreString = 'asdfjkl; фываолдж';
+    let twoScoreString = 'werxcvuiom,.цукчсмгшщтьб';
+    let threeScoreString = 'qztyghbnpйяенпрзи1234567890';
     let lowerLetter = letter.toLowerCase();
     if(oneScoreString.indexOf( lowerLetter)>-1) return 1;
     if(twoScoreString.indexOf( lowerLetter)>-1) return 2;
